@@ -10,7 +10,6 @@ arch:
 init: false
 startup: application
 boot: auto
-watchdog: false
 hassio_api: false
 host_network: false
 options:
