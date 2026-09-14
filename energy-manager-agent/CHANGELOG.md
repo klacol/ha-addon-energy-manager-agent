@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.2
+
+- Sauberes Beenden beim Stoppen des Addons
+- Gemeinsames Multi-Arch-Image statt getrennter Images je Architektur
+
 ## 2.0.1
 
 - Zeitstempel im Protokoll

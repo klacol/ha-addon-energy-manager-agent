@@ -1,15 +1,17 @@
 name: "Energy Manager Agent"
-version: "2.0.1"
+version: "2.0.2"
 slug: energy-manager-agent
 description: "Lokaler Agent des Energy Managers"
 url: "https://github.com/klacol/ha-addon-energy-manager-agent"
-image: "ghcr.io/klacol/energy-manager-agent-{arch}"
+image: "ghcr.io/klacol/energy-manager-agent"
 arch:
   - aarch64
   - amd64
 init: false
 startup: application
 boot: auto
+# Puffer, damit ein laufender SMGW-Abruf sauber abgebrochen werden kann (Default waeren 10s).
+timeout: 30
 hassio_api: false
 host_network: false
 options:
