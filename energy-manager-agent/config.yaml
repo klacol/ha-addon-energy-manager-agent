@@ -1,0 +1,25 @@
+name: "Energy Manager Agent"
+version: "2.0.0"
+slug: energy-manager-agent
+description: "Lokaler Agent des Energy Managers"
+url: "https://github.com/klacol/ha-addon-energy-manager-agent"
+image: "ghcr.io/klacol/energy-manager-agent-{arch}"
+arch:
+  - aarch64
+  - amd64
+init: false
+startup: application
+boot: auto
+watchdog: false
+hassio_api: false
+host_network: false
+options:
+  building_code: ""
+  rabbitmq_host: ""
+  rabbitmq_password: ""
+  log_level: "Information"
+schema:
+  building_code: str
+  rabbitmq_host: str
+  rabbitmq_password: password
+  log_level: list(Trace|Debug|Information|Warning|Error|Critical)
