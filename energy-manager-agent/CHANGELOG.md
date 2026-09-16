@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.8
+
+- Show image version in log
+
+
 ## 2.0.6
 
 - Correct disconnect for PPC
