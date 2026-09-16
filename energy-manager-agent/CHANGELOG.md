@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.6
+
+- Correct disconnect for PPC
+
+
 ## 2.0.5
 
 - Ping Check
