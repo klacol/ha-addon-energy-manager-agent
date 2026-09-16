@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.5
+
+- Ping Check
+
+## 2.0.4
+ 
+- Name of the Gateway in Log 
+
 ## 2.0.2
 
 - Sauberes Beenden beim Stoppen des Addons

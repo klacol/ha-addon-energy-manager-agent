@@ -1,5 +1,5 @@
 name: "Energy Manager Agent"
-version: "2.0.4"
+version: "2.0.5"
 slug: energy-manager-agent
 description: "Lokaler Agent des Energy Managers"
 url: "https://github.com/klacol/ha-addon-energy-manager-agent"
