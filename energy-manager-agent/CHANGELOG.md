@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.1
+
+- Inverters
+- Log-Level
+
 ## 2.0.8
 
 - Show image version in log
