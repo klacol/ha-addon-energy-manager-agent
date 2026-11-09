@@ -1,5 +1,9 @@
 # Changelog
 
+# 2.1.7
+
+- Inverters write
+
 ## 2.1.1
 
 - Inverters
